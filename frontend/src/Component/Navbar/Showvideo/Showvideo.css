@@ -1,0 +1,65 @@
+.Chanel_logo_App {
+    width: 2.2rem;  
+    height: 2.2rem;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+    background-color: rgb(224,227,214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fstChar_logo_App {
+    color: black;
+    font-weight: bold;
+}
+
+.video_description {
+    display: flex;
+    align-items: center;
+    margin: 0.4rem 0;
+}
+
+.video_details {
+    width: 80%;
+    color: aliceblue;
+    padding: 0.1rem;
+    margin-left: 0.5rem;
+}
+
+.title_vid_ShowVideo {
+    margin: 0;
+    font-size: large;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.vid_info {
+    display: flex;
+    align-items: center;
+    color: rgba(250,235,215,0.555);
+    font-size: 0.85rem;  /* Reduced font size */
+    margin-top: 0.2rem;
+    white-space: nowrap;  /* Ensure everything stays on a single line */
+    overflow: hidden;     /* Hide any overflow */
+    text-overflow: ellipsis; /* Show ellipsis if the text is too long */
+}
+
+.vid_info span {
+    margin-right: 0.5rem;
+}
+
+.video_showVideo {
+    width: 100%;
+    height: auto;
+    background-color: rgba(8,8,8,0.662);
+    border: 2px solid white;  /* White border around the video */
+}
+
+.dot {
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 0.5rem;
+}

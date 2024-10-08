@@ -1,0 +1,146 @@
+.Container_Navbar{
+    border: 1px solid;
+    display: flex;
+    height: calc(3.5rem - 2px);
+    background-color: rgb(33, 33, 33);
+    justify-content: space-between;
+}
+.Burger_Logo_Navbar{
+    display: flex;
+    height: 3.3rem;
+}
+.burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.7rem;
+    border-radius: 100%;
+    width: 1.5rem; /* Ensuring a defined width for burger */
+    height: 1.5rem; /* Ensure proper height */
+  }
+.burger p{
+    margin: 0.5px;
+    width: 1.2rem;
+    height: 0.1rem;
+    background-color: rgb(255, 244, 244);
+}
+.logo_div_Navbar{
+    display: flex;
+    text-decoration: none;
+}
+.logo_title_navbar{
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
+.apps_Box {
+    width: 30px; /* Increase to fit elements */
+    margin: auto 0.7rem;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .appBox {
+    border: 1px solid white;
+    margin: 0.2rem;
+    width: 3px; /* Increase to make visible */
+    height: 3px;
+  }
+.Auth_cont_Navbar{
+    background-color: white;
+    border-radius: 50%;
+    width: fit-content;
+    /* width:40px; */
+    height: 40px;;
+    margin: auto 0.5rem;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.Auth_Btn{
+    cursor: pointer;
+    color: #3ea6ff;
+    background-color: rgb(36,36,36);
+    border: 2px solid;
+    margin: 0;
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem; /* Add padding for better spacing */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional: subtle background */
+    border-radius: 20px; /* Rounded corners */
+  }
+  
+  .fstChar_logo_App {
+    background-color: purple; /* Color for initials */
+    color: white;
+    border-radius: 50%;
+    width: 40px; /* Size of the circle */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* Font size for initials */
+    font-weight: bold; /* Bold initials */
+  }
+  
+  .user-name {
+    margin-left: 10px; /* Space between initials and name */
+    color: white;
+    font-size: 16px; /* Adjust font size */
+    font-weight: 500; /* Medium weight for name */
+    white-space: nowrap; /* Prevent text from breaking into a new line */
+    overflow: hidden; /* Handle overflow */
+    text-overflow: ellipsis; /* Show ellipsis for long names */
+    max-width: 150px; /* Max width to control long names */
+  }
+  
+  .Auth_cont_Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 50%;
+    width: fit-content;
+    height: 40px;
+    margin: auto 0.5rem;
+    position: relative;
+  }
+  
+  .Auth_Btn {
+    cursor: pointer;
+    color: #3ea6ff;
+    background-color: rgb(36, 36, 36);
+    border: 2px solid;
+    padding: 0.5rem 1rem;
+    border-radius: 0.1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Auth_Btn b {
+    margin-left: 0.5rem; /* Add space between icon and text */
+    font-size: 14px; /* Font size for "Sign in" text */
+  }
+  
+  .Container_Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure vertical alignment */
+    height: 3.5rem;
+    background-color: rgb(33, 33, 33);
+    border: 1px solid;
+  }
+  
