@@ -18,7 +18,7 @@ const Showvideo = ({ vid }) => {
           </div>
         </div>
         <div className="video_details">
-          <p className="title_vid_ShowVideo">{vid.title}</p>
+        <p className="title_vid_ShowVideo">{vid?.videotitle}</p>
           <div className="vid_info">
             <span>{vid.uploader}</span>
             <div className="dot"></div>
